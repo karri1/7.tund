@@ -145,7 +145,7 @@ function saveCar ($plate, $color) {
 	
 	function getAllInterests() {
 		
-		$database = "if16_romil";
+		$database = "if16_karin";
 		$mysqli = new mysqli($GLOBALS["serverHost"], $GLOBALS["serverUsername"], $GLOBALS["serverPassword"], $database);
 		
 		$stmt = $mysqli->prepare("
